@@ -28,9 +28,9 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-1/3 md:w-1/2 w-5/6 ">
+        <div className="lg:max-w-lg lg:w-1/3 md:w-1/2 w-5/6  sm:mr-40 ">
           <img
-            className="rounded-full opacity-70 "
+            className="rounded-full opacity-70 hover:opacity-30 hover:blur-sm hover:animate-pulse"
             alt="Coffee and Code"
             src={codingImage}
           />
