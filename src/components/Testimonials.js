@@ -11,7 +11,7 @@ export default function Testimonials() {
           Testimonials
         </h1>
       </div>
-      <div className="flex flex-wrap m-4">
+      <div className="flex flex-wrap m-4 w-4/5 xxl:w-3/5 mx-auto">
         {testimonials.map((testimonial) => (
           <div className="p-4 md:w-1/2 w-full" key={testimonial.image}>
             <div className="h-full bg-gray-800 bg-opacity-40 p-8 rounded-xl">
