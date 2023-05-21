@@ -8,10 +8,14 @@ export default function About() {
           <h1 className=" title-font sm:text-4xl text-3xl mb-4 self-center font-medium text-white">
             David Holliday
           </h1>
-          <h2 className=" p-5 text-lg text-gray-200 self-center"> Turning Coffee into Code</h2>
+          <h2 className=" p-5 text-lg text-gray-200 self-center">
+            {" "}
+            Turning Coffee into Code
+          </h2>
 
           <p className="mb-8 leading-relaxed max-w-xs self-center">
-            A self teaching programmer currently concentrating on web development, particularly react.
+            A self teaching programmer currently concentrating on web
+            development, particularly React.
           </p>
           <div className="flex self-center">
             <a
@@ -28,14 +32,26 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-1/3 md:w-1/2 w-5/6  sm:mr-40 ">
+        <div className="lg:max-w-lg lg:w-1/3 md:w-1/2 w-5/6  sm:mr-40 hover:text-white hover:opacity-100">
           <img
-            className="rounded-full opacity-70 hover:opacity-30 hover:blur-sm hover:animate-pulse"
+            className="rounded-full opacity-70"
             alt="Coffee and Code"
             src={codingImage}
           />
+          <p className="text-center opacity-25 text-sm hover:text-white hover:opacity-100">
+            Photo by{" "}
+            <a href="https://unsplash.com/@altumcode?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" >
+              AltumCode
+            </a>{" "}
+            on{" "}
+            <a href="https://unsplash.com/photos/Y8iPJEvUz6c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" >
+              Unsplash
+            </a>
+          </p>
         </div>
+        
       </div>
+      
     </section>
   );
 }
