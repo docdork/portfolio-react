@@ -19,7 +19,7 @@ export default function Testimonials() {
               <p className="leading-relaxed mb-6">{testimonial.quote}</p>
               <div className="inline-flex items-center">
                 <img
-                  alt="testimonial image"
+                  alt="testimonial"
                   src={testimonial.image}
                   className="w-12 rounded-full flex-shrink-0 object-cover object-center"
                 />
