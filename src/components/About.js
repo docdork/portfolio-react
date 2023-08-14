@@ -1,4 +1,5 @@
 import codingImage from "../assets/altumcode-Y8iPJEvUz6c-unsplash.jpg";
+import gitHubIcon from "../assets/github-mark-white.png";
 
 export default function About() {
   return (
@@ -13,10 +14,19 @@ export default function About() {
             Turning Coffee into Code
           </h2>
 
-          <p className="mb-8 leading-relaxed max-w-xs self-center">
+          <p className="mb- leading-relaxed max-w-xs self-center">
             A self teaching programmer currently concentrating on web
-            development, particularly React.
+            development, particularly React, Angular and Mobile development.
           </p>
+          <a href="https://github.com/docdork" className="p-5 self-center">
+            <img
+            className="hover:scale-125"
+              src={gitHubIcon}
+              alt="gitHub icon"
+              width="50"
+              height="50"
+            />
+          </a>
           <div className="flex self-center">
             <a
               href="#contact"
@@ -40,18 +50,16 @@ export default function About() {
           />
           <p className="text-center opacity-25 text-sm hover:text-white hover:opacity-100">
             Photo by{" "}
-            <a href="https://unsplash.com/@altumcode?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" >
+            <a href="https://unsplash.com/@altumcode?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
               AltumCode
             </a>{" "}
             on{" "}
-            <a href="https://unsplash.com/photos/Y8iPJEvUz6c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" >
+            <a href="https://unsplash.com/photos/Y8iPJEvUz6c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">
               Unsplash
             </a>
           </p>
         </div>
-        
       </div>
-      
     </section>
   );
 }
