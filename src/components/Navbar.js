@@ -11,6 +11,7 @@ export default function Navbar() {
             <a href="#projects" className="mr-5 hover:text-white">Projects</a>
             <a href="#skills" className="mr-5 hover:text-white">Skills</a>
             <a href="#testimonials" className="mr-5 hover:text-white">Testimonials</a>
+            <a href="https://www.privacypolicies.com/live/f51fc6d9-e1c6-4839-8a70-fc27255e82c5" className="mr-5 hover:text-white">App Privacy Policy</a>
         </nav>
         <a href="#contact" className="inline-flex items-center bg-indigo-800 border-0 py-1 px-3 fucus:outline-none hover:bg-indigo-700 rounded text-base mt-4 md:mt-0">Get in touch 
             <ArrowRightIcon className="w-4 h-4 ml-1"/>

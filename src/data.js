@@ -1,8 +1,25 @@
 import govImage from './assets/gov-data-app-pic.png';
 import redCross from './assets/RedCrossFlag.png';
 import customerOne from './assets/55d80a24-7467-42f5-897a-5aa4a1f55d06.png';
+import foodPic from './assets/brooke-lark-jUPOXXRNdcA-unsplash.png';
 
 export const projects = [
+  {
+    title: "Eating Timer App - iOS",
+    subtitle: "React Native",
+    description:
+      "This is a simple food timer for those following the 20/20/20 eating habit.  Built in React Native and deployed using Expo.",
+    image: foodPic,
+    link: "https://apps.apple.com/gb/app/janes-food-app/id6455685106",
+  },
+  {
+    title: "Eating Timer App - Android",
+    subtitle: "React Native",
+    description:
+      "This is a simple food timer for those following the 20/20/20 eating habit.  Built in React Native and deployed using Expo.",
+    image: foodPic,
+    link: "https://play.google.com/store/apps/details?id=com.docdork.janesfoodtimer&pcampaignid=web_share",
+  },
   {
     title: "Government Data Web App",
     subtitle: "REACT and API calls",
@@ -19,6 +36,7 @@ export const projects = [
     image: redCross,
     link: "https://codepen.io/docdork/full/NWMWJoe",
   }
+  
 ];
 
 export const skills = [
