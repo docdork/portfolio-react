@@ -2,8 +2,17 @@ import govImage from './assets/gov-data-app-pic.png';
 import redCross from './assets/RedCrossFlag.png';
 import customerOne from './assets/55d80a24-7467-42f5-897a-5aa4a1f55d06.png';
 import foodPic from './assets/brooke-lark-jUPOXXRNdcA-unsplash.png';
+import pong from './assets/pong.png'
 
 export const projects = [
+  {
+    title: "Pong Clone",
+    subtitle: "HTML, CSS & JavaScript",
+    description:
+      "Pong clone following Web Dev Simplified (link in the game)",
+    image: pong,
+    link: "https://docdork.github.io/pong/",
+  },
   {
     title: "Eating Timer App - iOS",
     subtitle: "React Native",
@@ -35,7 +44,8 @@ export const projects = [
       "A triage App using JavaScript and CSS to filter what the user sees based on input.  WARNING: Don't use for actual triage.  It's just a demo. Hosted on Codepen.",
     image: redCross,
     link: "https://codepen.io/docdork/full/NWMWJoe",
-  }
+  },
+  
   
 ];
 
