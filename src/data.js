@@ -50,7 +50,7 @@ export const projects = [
 ];
 
 export const skills = [
-  "HTML", "JavaScript", "CSS", "React" 
+  "HTML, JavaScript, CSS", "React & React Native", "Angular", "Ionic" 
 ];
 
 export const testimonials =[
