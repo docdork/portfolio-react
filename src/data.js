@@ -39,11 +39,11 @@ export const projects = [
 ];
 
 export const skills = [
-  "HTML, JavaScript, CSS",
+  "MERN Stack",
   "React & React Native",
+  "HTML, JavaScript, CSS",
   "Angular",
   "Ionic",
-  "MERN Stack",
 ];
 
 export const testimonials = [
