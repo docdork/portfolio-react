@@ -43,6 +43,7 @@ export const skills = [
   "React & React Native",
   "Angular",
   "Ionic",
+  "MERN Stack",
 ];
 
 export const testimonials = [
