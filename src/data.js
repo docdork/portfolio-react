@@ -1,18 +1,10 @@
-import govImage from './assets/gov-data-app-pic.png';
-import redCross from './assets/RedCrossFlag.png';
-import customerOne from './assets/55d80a24-7467-42f5-897a-5aa4a1f55d06.png';
-import foodPic from './assets/brooke-lark-jUPOXXRNdcA-unsplash.png';
-import pong from './assets/pong.png'
+import govImage from "./assets/gov-data-app-pic.png";
+import redCross from "./assets/RedCrossFlag.png";
+import customerOne from "./assets/55d80a24-7467-42f5-897a-5aa4a1f55d06.png";
+import foodPic from "./assets/brooke-lark-jUPOXXRNdcA-unsplash.png";
+import pong from "./assets/pong.png";
 
 export const projects = [
-  {
-    title: "Pong Clone",
-    subtitle: "HTML, CSS & JavaScript",
-    description:
-      "Pong clone following Web Dev Simplified (link in the game)",
-    image: pong,
-    link: "https://docdork.github.io/pong/",
-  },
   {
     title: "Eating Timer App - iOS",
     subtitle: "React Native",
@@ -45,19 +37,20 @@ export const projects = [
     image: redCross,
     link: "https://codepen.io/docdork/full/NWMWJoe",
   },
-  
-  
 ];
 
 export const skills = [
-  "HTML, JavaScript, CSS", "React & React Native", "Angular", "Ionic" 
+  "HTML, JavaScript, CSS",
+  "React & React Native",
+  "Angular",
+  "Ionic",
 ];
 
-export const testimonials =[
+export const testimonials = [
   {
-    quote: 'He feeds me.',
+    quote: "He feeds me.",
     image: customerOne,
-    name: 'Scruffy',
-    company: 'Just me'
+    name: "Scruffy",
+    company: "Just me",
   },
 ];
