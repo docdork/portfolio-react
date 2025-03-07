@@ -26,7 +26,7 @@ export const projects = [
     description:
       "This Web App uses React and interrogates a Government API to show some data. Hosted on Firebase.",
     image: govImage,
-    link: "https://gov-data-app.web.app/",
+    link: "https://bucolic-swan-a71497.netlify.app/",
   },
   {
     title: "Triage Web App",
