@@ -2,8 +2,17 @@ import govImage from "./assets/gov-data-app-pic.png";
 import redCross from "./assets/RedCrossFlag.png";
 import customerOne from "./assets/55d80a24-7467-42f5-897a-5aa4a1f55d06.png";
 import foodPic from "./assets/brooke-lark-jUPOXXRNdcA-unsplash.png";
+import hospitalPic from "./assets/2IMG_061.jpeg";
 
 export const projects = [
+  {
+    title: "Patient Information System",
+    subtitle: "MERN Stack",
+    description:
+      "A full stack MERN application for managing patient information.  Built with React, Node.js, Express, and MongoDB.",
+    image: hospitalPic,
+    link: "https://patient-info-system.netlify.app/",
+  },
   {
     title: "Eating Timer App - iOS",
     subtitle: "React Native",
