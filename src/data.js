@@ -3,6 +3,7 @@ import redCross from "./assets/RedCrossFlag.png";
 import customerOne from "./assets/55d80a24-7467-42f5-897a-5aa4a1f55d06.png";
 import foodPic from "./assets/brooke-lark-jUPOXXRNdcA-unsplash.png";
 import hospitalPic from "./assets/2IMG_061.jpeg";
+import rcdmPic from "./assets/RCDM.png";
 
 export const projects = [
   {
@@ -12,6 +13,14 @@ export const projects = [
       "A full stack MERN application for managing patient information.  Built with React, Node.js, Express, and MongoDB.",
     image: hospitalPic,
     link: "https://patient-info-system.netlify.app/",
+  },
+  {
+    title: "Armed Forces Covenant Web App",
+    subtitle: "REACT",
+    description:
+      "A web application for the Armed Forces Covenant, built with React. It allows users to view event information and register attendance.",
+    image: rcdmPic,
+    link: "https://uhb-rcdm-expo.netlify.app/",
   },
   {
     title: "Eating Timer App - iOS",
