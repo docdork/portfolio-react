@@ -4,8 +4,17 @@ import customerOne from "./assets/55d80a24-7467-42f5-897a-5aa4a1f55d06.png";
 import foodPic from "./assets/brooke-lark-jUPOXXRNdcA-unsplash.png";
 import hospitalPic from "./assets/2IMG_061.jpeg";
 import rcdmPic from "./assets/RCDM.png";
+import turtle from "./assets/turtle.png";
 
 export const projects = [
+  {
+    title: "Diving With the Injured Website",
+    subtitle: "REACT",
+    description:
+      "A REACT web App for a charity that provides scuba diving experiences for injured service personnel.  Built with React and hosted on Netlify.",
+    image: turtle,
+    link: "https://divingwiththeinjured.netlify.app/",
+  },
   {
     title: "Patient Information System",
     subtitle: "MERN Stack",
